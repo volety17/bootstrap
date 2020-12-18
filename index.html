@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first template</title>
+    <!--Bootstrap CSS link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="nav justify-content-center">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact Us</a>
+            <a href="#" class="nav-link">Login</a>
+            <a href="#" class="nav-link">Signup</a>
+        </nav>
+        <div class="card bg-dark text-white">
+            <img class="card-img" src="https://www.tutorialrepublic.com/lib/images/bootstrap-illustration.png" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Last updated 3 mins ago</p>
+            </div>
+        </div>
+        
+        <div class="container-fluid container1 d-grid gap-3">
+            <div class="jumbotron p-2" style="color:white;">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+              </div>
+            <div class="row justify-content-center p-2">
+                <div class="col-sm-3">
+                  <div class="card">
+                      <img class="card-img" src="data:image/jpeg;base64,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" height="200" width="100" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card">
+                      <img class="card-img-top" src="https://miro.medium.com/max/285/1*QR2SBNwG75LyY5uwqWpN3A.png" height="200" width="100" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="https://pbs.twimg.com/profile_images/532662364613525504/GN559Lfb_400x400.png" height="200" width="100" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="accordion accordion-flush p-2" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer p-2 text-center">
+                  <p>All copyrights reserved @ 2020</p>
+              </div>
+        </div>
+    </div>
+    <!--Bootstrap JS link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
